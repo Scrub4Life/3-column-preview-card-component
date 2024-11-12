@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #e8e9e9;
+  text-align: left;
+}
+
+h2 {
+  margin-bottom: 70px;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  /* font-family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca); */
+  font-weight: 400;
+}
+
+p {
+  margin-bottom: 70px;
+  color: #ffffff;
+  opacity: 0.75;
+  font-weight: 700;
+}
+
+img {
+  margin-bottom: 70px;
+}
+
+button {
+  margin-top: 100px;
+}
+
+.container {
+  background: #fff;
+  height: 75vh;
+  max-width: 990px;
+  margin: 2em auto;
+  padding: 0;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: minmax(200px, 1fr) 20px;
+}
+
+.content {
+  margin: 50px;
+  font-size: 15px;
+}
+
+.col1 {
+  background-color: #e38826;
+  border-radius: 15px 0 0 15px;
+}
+
+.col2 {
+  background-color: #006970;
+}
+
+.col3 {
+  background-color: #004241;
+  border-radius: 0 15px 15px 0;
+}
+
+.col3 button {
+  margin-top: 120px;
+}
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
